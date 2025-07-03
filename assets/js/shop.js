@@ -22,7 +22,7 @@ const createCol = (product) =>{
         <div class="card-body">
             <h5 class="card-title">${product.title}</h5>
             <p class="card-text">${product.description}</p>
-            <button href="#" class="btn btn-primary" data-productid=${product.id}>Add To Cart</button>
+            <button href="#" class="btn btn-bg-info-subtle" data-productid=${product.id}>Add To Cart</button>
         </div>
     </div>
     `
